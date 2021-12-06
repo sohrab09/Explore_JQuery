@@ -1,0 +1,9 @@
+1. JavaScript is a complex language with many functions and capabilities.
+2. Developers have created JavaScript Libraries to simplify the coding process.
+3. JQuery is a library of commonly used JS functions and methods.
+4. JQuery library contains many features
+    > HTML Manipulation
+    > CSS Manipulation
+    > Effects and Animations
+    > AJAX
+5. Many well known companies use JQuery in web applications, like: Google, Microsoft, IBM, Facebook etc.
