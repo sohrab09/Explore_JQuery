@@ -23,15 +23,29 @@ $(document).ready(function(){
 
 // if we want to select all the elements in the HTML document, we can use the following syntax:
 
-$(document).ready(function(){
-    $("button").click(function() {
-        $("*").hide();
-    });
-});
+// $(document).ready(function(){
+//     $("button").click(function() {
+//         $("*").hide();
+//     });
+// });
 
 // Hide text or any other elements by click function.
 $().ready(function(){
     $("#hideExample").click(function(){
         $("h3").hide();
+    });
+}); 
+
+// Mouse over, for show alert message.
+$().ready(function(){
+    $("#mouseOver").mouseover(function(){
+        alert("Mouse over event");
+    });
+}); 
+
+// Mouse leave, for show alert message.
+$().ready(function(){
+    $("#mouseLeave").mouseleave(function(){
+        alert("Mouse leave event");
     });
 }); 
