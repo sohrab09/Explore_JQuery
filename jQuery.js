@@ -63,3 +63,21 @@ $(document).ready(function(){
         alert("Mouse Up event");
     });
 });
+
+// Multiple events for multiple elements
+$(document).ready(function(){
+    $("h2").on({
+        mouseenter: function(){
+            $(this).css("background-color","yellow");
+            $(this).css("color","blue");
+        },
+        mouseleave: function(){
+            $(this).css("background-color","green");
+            $(this).css("color","blue");
+        },
+        click: function(){
+            $(this).css("background-color","red");
+            $(this).css("color","blue");
+        },
+    })
+});
