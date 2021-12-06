@@ -14,3 +14,32 @@ $(document).ready(function() {
     // Insert JQuery methods here
 
 })
+
+<!-- if we want to select all the elements in the HTML document, we can use the following syntax: -->
+
+   $(document).ready(function(){
+    $("button1").click(function() {
+        $("*").hide();
+    });
+});
+
+<!-- Other JQuery Selectors -->
+
+$("*") - Select all elements
+$("p") - Select all paragraphs
+$(this) - Select the current element
+$("p.demo") - Select all paragraphs with class demo
+$("p:first") - Select the first paragraph
+$("p:last") - Select the last paragraph
+$("p:odd") - Select all odd paragraphs
+$("p:even") - Select all even paragraphs
+$("ul li:first") - Select the first <li> element of the first <ul> element <ul>
+$("ul li:first-child") - Select the first <li> element of the first <ul> element <ul>
+$("[href]") - Select all elements with an href attribute
+$("a[target='_blank']") - Select all <a> elements with target="_blank"
+$("a[target!='_blank']") - Select all <a> elements with target!="_blank"
+$("a[target^='_']") - Select all <a> elements with target starting with "_"
+$("a[target$='_blank']") - Select all <a> elements with target ending with "_blank"
+$("a[target*='_blank']") - Select all <a> elements with target containing "_blank"
+$("tr:even") - Select all even <tr> elements
+$("tr:odd") - Select all odd <tr> elements
