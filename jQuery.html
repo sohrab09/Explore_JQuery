@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- JQuery CDN Start -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JQuery CDN End -->
+
+    <script>
+        $(document).ready(function(){
+            $(".button1").click(function() {
+                $("p").hide();
+            });
+        });
+        $(document).ready(function(){
+            $(".button2").click(function() {
+                $("p").show();
+            });
+        });
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Explore JQuery, with heavy fun................</h1>
+    <p>Show information</p>
+    <p>Hide information</p>
+    <button class="button1">Hide</button>
+    <button class="button2">Show</button>
+
+</body>
+</html>

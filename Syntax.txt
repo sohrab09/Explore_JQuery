@@ -1,0 +1,16 @@
+<!-- Basic Syntax of JQuery -->
+
+Basic Syntax: $(selector).action();
+
+- $ sign to define/access JQuery
+- (selector) to find the HTML elements
+- action() to perform the action on the HTML elements
+
+
+<!-- Nest JQuery Methods in -->
+
+$(document).ready(function() {
+
+    // Insert JQuery methods here
+
+})
