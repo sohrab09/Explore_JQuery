@@ -28,3 +28,10 @@ $(document).ready(function(){
         $("*").hide();
     });
 });
+
+// Hide text or any other elements by click function.
+$().ready(function(){
+    $("#hideExample").click(function(){
+        $("h3").hide();
+    });
+}); 

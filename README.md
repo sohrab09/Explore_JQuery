@@ -8,3 +8,51 @@ of JavaScript code to accomplish, and wraps them into
 methods that you can call with a single line of code.
 
 @W3schools.com
+
+<!-- !Types of Event in jQuery  -->
+
+<!--? Mouse Events -->
+
+    -click
+    -dblclick
+    -mousedown
+    -mouseenter
+    -mouseleave
+    -mousemove
+    -mouseout
+    -mouseover
+    -mouseup
+    -drag
+    -dragstart
+    -dragend
+    -dragenter
+    -dragover
+    -dragleave
+    -drop
+    -submit
+
+<!--? Keyboard Events -->
+
+    -keydown
+    -keypress
+    -keyup
+
+<!--? Form Events -->
+    
+    -focus
+    -blur
+    -change
+    -select
+    -submit
+    -reset
+
+<!--? Document/ Window Events  -->
+
+    -load
+    -unload
+    -beforeunload
+    -resize
+    -scroll
+    -error
+    -select
+    
