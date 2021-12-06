@@ -81,3 +81,11 @@ $(document).ready(function(){
         },
     })
 });
+
+// Document select by Class 
+
+$(document).ready(function(){
+    $("#toggle").click(function() {
+        $("h3").toggle(1000); // 1000 is the time in milliseconds for toggle button
+    });
+});
