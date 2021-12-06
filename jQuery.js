@@ -30,22 +30,36 @@ $(document).ready(function(){
 // });
 
 // Hide text or any other elements by click function.
-$().ready(function(){
+$(document).ready(function(){
     $("#hideExample").click(function(){
         $("h3").hide();
     });
 }); 
 
 // Mouse over, for show alert message.
-$().ready(function(){
+$(document).ready(function(){
     $("#mouseOver").mouseover(function(){
         alert("Mouse over event");
     });
 }); 
 
 // Mouse leave, for show alert message.
-$().ready(function(){
+$(document).ready(function(){
     $("#mouseLeave").mouseleave(function(){
         alert("Mouse leave event");
     });
 }); 
+
+// Mouse down, for show alert message.
+$(document).ready(function(){
+    $("#mouseDown").mousedown(function(){
+        alert("Mouse down event");
+    });
+});
+
+// Mouse up, for show alert message.
+$(document).ready(function(){
+    $("#mouseUp").mouseup(function(){
+        alert("Mouse Up event");
+    });
+});
