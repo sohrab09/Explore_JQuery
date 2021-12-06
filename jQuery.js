@@ -10,12 +10,12 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $(".button1").click(function() {
-        $("p").hide();
+        $("p").hide(1000); // 1000 is the time in milliseconds for hide button
     });
 });
 $(document).ready(function(){
     $(".button2").click(function() {
-        $("p").show();
+        $("p").show(1000); // 1000 is the time in milliseconds for show button
     });
 });
 
