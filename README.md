@@ -10,8 +10,10 @@ methods that you can call with a single line of code.
 @W3schools.com
 
 <!-- !Types of Event in jQuery  -->
+Types of Event in jQuery 
 
 <!--? Mouse Events -->
+    Mouse Events
 
     -click
     -dblclick
@@ -32,12 +34,13 @@ methods that you can call with a single line of code.
     -submit
 
 <!--? Keyboard Events -->
+    Keyboard Events
 
     -keydown
     -keypress
     -keyup
 
-<!--? Form Events -->
+    Form Events
     
     -focus
     -blur
@@ -47,6 +50,7 @@ methods that you can call with a single line of code.
     -reset
 
 <!--? Document/ Window Events  -->
+    Document/ Window Events 
 
     -load
     -unload
@@ -55,4 +59,3 @@ methods that you can call with a single line of code.
     -scroll
     -error
     -select
-    
