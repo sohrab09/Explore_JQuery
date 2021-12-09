@@ -89,3 +89,15 @@ $(document).ready(function(){
         $("h3").toggle(1000); // 1000 is the time in milliseconds for toggle button
     });
 });
+
+// Animate 
+$(document).ready(function(){
+    $("button").click(function() {
+        $("#square").animate({
+            left: '250px',
+            opacity: '0.5',
+            height: 'toggle',
+            width: '150px'
+        }, 1000);
+    });
+});
