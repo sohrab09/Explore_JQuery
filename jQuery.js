@@ -101,3 +101,14 @@ $(document).ready(function(){
         }, 1000);
     });
 });
+
+// Round Animation 
+$(document).ready(function(){
+    $("button").click(function() {
+        var squares = $("#squares");
+        squares.animate({height: '500px', opacity: '0.5'}, 1000);
+        squares.animate({width: '400px', opacity: '0.9'}, 500);
+        squares.animate({height: '300px', opacity: '0.5'}, 1000);
+        squares.animate({width: '200px', opacity: '0.9'}, 500);
+    });
+});
